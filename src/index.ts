@@ -1,14 +1,19 @@
-import Vue from "vue";
-import App from "./components/App.vue";
+import Vue from 'vue';
+import Vuex from 'vuex';
 
-let v = new Vue({
-    el: "#app",
-    template: `
-      <div>
-        <App />
-      </div>
-    `,
-    components: {
-        App
-    }
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+
+import App from './App.vue';
+
+Vue.use(ElementUI);
+Vue.use(Vuex);
+
+new Vue({
+  el: '#app',
+  render: h => h(App)
 });
+
+if (module.hot) {
+  module.hot.accept();
+}

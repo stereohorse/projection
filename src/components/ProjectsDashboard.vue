@@ -1,20 +1,15 @@
 <template>
   <div>
-    Hi
+    Projects sssaaaa
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 
-import { Component } from "vue-property-decorator";
+import { Component } from 'vue-property-decorator';
 
 @Component
 export default class App extends Vue {
-
-  mounted() {
-    console.log('mounted');
-  }
 }
-
 </script>
