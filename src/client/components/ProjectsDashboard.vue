@@ -1,6 +1,6 @@
 <template>
   <div>
-    Projects sssaaaa
+    Projects
   </div>
 </template>
 
